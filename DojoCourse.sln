@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C7D9F7EA-91CE-4ECD-B37E-883F143C6D15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DojoCourse.Web", "src\DojoCourse.Web\DojoCourse.Web.csproj", "{F09324D3-0DF1-497C-B4C8-C787540B11B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{8142B96E-A3C7-48F9-8542-9111FF2FB174}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DojoCourse.MOdule", "src\Modules\DojoCourse.MOdule\DojoCourse.MOdule.csproj", "{E58C0798-4D9C-4285-B2FF-6099FCF9E72A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Themes", "Themes", "{ED0E3C44-53A3-4974-9091-AFF0C9EE9B1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DojoCourse.Theme", "src\Themes\DojoCourse.Theme\DojoCourse.Theme.csproj", "{92255CAC-9547-4EA3-A1E5-5D1BD059A509}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F09324D3-0DF1-497C-B4C8-C787540B11B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F09324D3-0DF1-497C-B4C8-C787540B11B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F09324D3-0DF1-497C-B4C8-C787540B11B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F09324D3-0DF1-497C-B4C8-C787540B11B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E58C0798-4D9C-4285-B2FF-6099FCF9E72A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E58C0798-4D9C-4285-B2FF-6099FCF9E72A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E58C0798-4D9C-4285-B2FF-6099FCF9E72A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E58C0798-4D9C-4285-B2FF-6099FCF9E72A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92255CAC-9547-4EA3-A1E5-5D1BD059A509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92255CAC-9547-4EA3-A1E5-5D1BD059A509}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92255CAC-9547-4EA3-A1E5-5D1BD059A509}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92255CAC-9547-4EA3-A1E5-5D1BD059A509}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F09324D3-0DF1-497C-B4C8-C787540B11B6} = {C7D9F7EA-91CE-4ECD-B37E-883F143C6D15}
+		{8142B96E-A3C7-48F9-8542-9111FF2FB174} = {C7D9F7EA-91CE-4ECD-B37E-883F143C6D15}
+		{E58C0798-4D9C-4285-B2FF-6099FCF9E72A} = {8142B96E-A3C7-48F9-8542-9111FF2FB174}
+		{ED0E3C44-53A3-4974-9091-AFF0C9EE9B1E} = {C7D9F7EA-91CE-4ECD-B37E-883F143C6D15}
+		{92255CAC-9547-4EA3-A1E5-5D1BD059A509} = {ED0E3C44-53A3-4974-9091-AFF0C9EE9B1E}
+	EndGlobalSection
+EndGlobal
